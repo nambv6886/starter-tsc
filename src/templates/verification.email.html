@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Verification Email</title>
+    <style>
+        * {
+            font-family: Tahoma;
+            color: #54617a;
+            font-size: 14px;
+        }
+
+        .logo-container {
+            padding-bottom: 15px;
+            margin-top: 5px;
+        }
+
+        .header {
+            color: #418fde;
+            font-size: 24px;
+        }
+
+        #confirm-link {
+            border: solid 0 #979797;
+            background-color: #418fde;
+            border-radius: 43px;
+            color: #ffffff;
+            display: inline-block;
+            font-weight: bold;
+            font-style: normal;
+            padding: 15px 20px;
+            font-size: 15px;
+            margin: 15px 0;
+            text-decoration: none;
+            width: 376px;
+        }
+    </style>
+</head>
+
+<body style="font-family:Tahoma;color:#54617a;font-size:14px">
+<table style="max-width: 420px; margin: 10px auto; text-align: center">
+    <tbody>
+    <tr>
+        <td>
+            <h2 class="header" style="color:#418fde;font-size:24px">Please confirm your email address</h2>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="content">
+                <p>To finalize the creation of your new account, please follow the link below to confirm your email address:</p>
+                <a id="confirm-link" href="{verifyUrl}" target="_blank" style="border:0 solid #979797;background-color:#418fde;border-radius:43px;color:#fff;display:inline-block;font-weight:700;font-style:normal;padding:15px 20px;font-size:15px;margin:15px 0;text-decoration:none;width:376px">CONFIRM EMAIL ADDRESS</a>
+                <p>For security reasons, this link will expire after {EXPIRE_TIME} hours.</p>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td>
+            <div>
+                Regards<br>
+            </div>
+        </td>
+    </tr>
+    </tfoot>
+</table>
+</body>
+
+</html>

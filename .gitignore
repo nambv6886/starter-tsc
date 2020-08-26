@@ -1,0 +1,8 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+.idea/*
+node_modules/*
+logs/*
+.vs/*
+package-lock.json
+config/production.js
+build/*
